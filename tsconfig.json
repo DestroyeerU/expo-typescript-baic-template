@@ -12,7 +12,11 @@
 
     "baseUrl": "./",
     "paths": {
-      "~/*": ["src/*"]
+      "@types/*": ["src/types/*"],
+      "@components/*": ["src/components/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@utils/*": ["src/utils/*"],
+      "@styles/*": ["src/styles/*"]
     },
 
     "typeRoots": [

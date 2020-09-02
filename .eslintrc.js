@@ -72,7 +72,16 @@ module.exports = {
       'warn',
       {
         newlinesBetween: 'always', // new line between groups
-        groups: ['/^react/', 'module', '/^~/components/', '/^~/', ['parent', 'sibling', 'index']],
+        groups: [
+          '/^react/',
+          'module',
+          '/^@types/',
+          '/^@components/',
+          '/^@hooks/',
+          '/^@utils/',
+          '/^@styles/',
+          ['parent', 'sibling', 'index'],
+        ],
         alphabetize: { order: 'asc', ignoreCase: true },
       },
     ],
